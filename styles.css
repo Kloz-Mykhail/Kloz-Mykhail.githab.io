@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+body {
+  font-family: Lato;
+  background-color: lightseagreen;
+}
+h2 {
+  min-width: min-content;
+  max-width: max-content;
+  padding: 1px 2px;
+  border-radius: 6px;
+  background-color: blueviolet;
+  /* margin-bottom: 1px; */
+}
+.myPhoto {
+  width: 200px;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.block {
+  max-width: 70%;
+  margin: auto;
+  /* background-color: seagreen;
+  box-shadow: 7px 7px 14px 0px black;
+  margin: 2vw;
+  padding: 2vw;
+  border-radius: 20px;
+  border: 2px solid green; */
+}
+.block > div {
+  min-width: 270px;
+  background-color: seagreen;
+  padding: 20px;
+  float: left;
+  border-radius: 10%;
+  margin: 10px;
+  max-width: 30%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 14px 0px black;
+}
+.bl1 {
+  /* border: 2px solid cyan; */
+  border-radius: 10%;
+  padding: 40px;
+  width: 30%;
+  text-align: center;
+}

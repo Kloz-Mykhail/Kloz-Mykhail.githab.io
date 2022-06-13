@@ -6,10 +6,12 @@ body {
 h2 {
   min-width: min-content;
   max-width: max-content;
+  /* display: inline-block; */
+  box-sizing: border-box;
   padding: 1px 2px;
+  margin: 0px;
   border-radius: 6px;
   background-color: blueviolet;
-  /* margin-bottom: 1px; */
 }
 .myPhoto {
   width: 200px;
@@ -20,12 +22,6 @@ h2 {
 .block {
   max-width: 70%;
   margin: auto;
-  /* background-color: seagreen;
-  box-shadow: 7px 7px 14px 0px black;
-  margin: 2vw;
-  padding: 2vw;
-  border-radius: 20px;
-  border: 2px solid green; */
 }
 .block > div {
   min-width: 270px;
